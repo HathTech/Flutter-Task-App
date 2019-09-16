@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:task_app/widgets/dashed_rect.dart';
 import 'package:task_app/widgets/heading.dart';
 import 'package:task_app/widgets/project_card_tile.dart';
 import 'package:task_app/widgets/projects_slider.dart';
@@ -22,16 +23,19 @@ class Dashboard extends StatelessWidget {
                   "Today's tasks",
                   style: TextStyle(fontSize: 32, fontWeight: FontWeight.w600),
                 ),
-                button: OutlineButton(
-                  shape: RoundedRectangleBorder(
-                      borderRadius: new BorderRadius.circular(8.0)),
-                  textColor: Colors.orange,
-                  child: Icon(
-                    Icons.navigate_next,
-                    size: 28,
-                  ),
-                  onPressed: () {},
-                ),
+                button: DottedBorder(
+                    borderType: BorderType.RRect,
+                    radius: Radius.circular(8),
+                    color: Colors.grey,
+                    child: Center(
+                      child: Icon(
+                        Icons.navigate_next,
+                        size: 28,
+                        color: Colors.orange,
+                      ),
+                    ),
+                    strokeWidth: 1,
+                    dashPattern: [3, 4]),
               ),
               SizedBox(
                 height: 22,
@@ -47,16 +51,19 @@ class Dashboard extends StatelessWidget {
                   "Open projects",
                   style: TextStyle(fontSize: 24, fontWeight: FontWeight.w600),
                 ),
-                button: OutlineButton(
-                  shape: RoundedRectangleBorder(
-                      borderRadius: new BorderRadius.circular(8.0)),
-                  textColor: Colors.orange,
-                  child: Icon(
-                    Icons.navigate_next,
-                    size: 28,
-                  ),
-                  onPressed: () {},
-                ),
+                button: DottedBorder(
+                    borderType: BorderType.RRect,
+                    radius: Radius.circular(8),
+                    color: Colors.grey,
+                    child: Center(
+                      child: Icon(
+                        Icons.navigate_next,
+                        size: 28,
+                        color: Colors.orange,
+                      ),
+                    ),
+                    strokeWidth: 1,
+                    dashPattern: [3, 4]),
               ),
               Container(
                 child: ListView.builder(

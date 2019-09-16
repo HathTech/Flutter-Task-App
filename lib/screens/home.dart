@@ -41,7 +41,7 @@ class HomeState extends State<Home> {
         backgroundColor: Colors.white,
         centerTitle: false,
         title: Padding(
-          padding: const EdgeInsets.only(left: 6.0, top: 8.0),
+          padding: const EdgeInsets.only(left: 6.0, top: 5.0),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.start,
             crossAxisAlignment: CrossAxisAlignment.start,
@@ -88,7 +88,7 @@ class HomeState extends State<Home> {
             ]),
 
             bottomNavigationBar: Padding(
-              padding: const EdgeInsets.only(bottom: 16.0),
+              padding: const EdgeInsets.only(bottom: 0.0),
               child: CustomBottomNav(updateIndex),
             ),
             backgroundColor: Colors.white,
