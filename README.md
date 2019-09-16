@@ -24,7 +24,7 @@ If you found this project useful, then please consider giving it a :star: on Git
 <a href="https://twitter.com/hathtech"><img src="https://github.com/aritraroy/social-icons/blob/master/twitter-icon.png?raw=true" width="60"></a>
 <a href="https://facebook.com/hathtech"><img src="https://github.com/aritraroy/social-icons/blob/master/facebook-icon.png?raw=true" width="60"></a>
 
-# Donate
+#### Donate
 
 > If you found this project helpful or you learned something from the source code and want me to continue my work adding more features, consider buying me a cup of :coffee:
 >
