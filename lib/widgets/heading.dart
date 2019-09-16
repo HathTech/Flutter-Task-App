@@ -13,8 +13,8 @@ class Heading extends StatelessWidget {
       child: ListTile(
         leading: text,
         trailing: Container(
-          height: 50,
-          width: 55,
+          height: 40,
+          width: 40,
           child: button,
         ),
       ),

@@ -65,6 +65,9 @@ class Dashboard extends StatelessWidget {
                     strokeWidth: 1,
                     dashPattern: [3, 4]),
               ),
+              SizedBox(
+                height: 12.0,
+              ),
               Container(
                 child: ListView.builder(
                   shrinkWrap: true,
