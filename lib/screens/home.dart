@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:task_app/screens/dashboad.dart';
+import 'package:task_app/screens/projects.dart';
 import 'package:task_app/widgets/bottom_nav.dart';
 
 class Home extends StatefulWidget {
@@ -83,7 +84,7 @@ class HomeState extends State<Home> {
             body:
                 TabBarView(physics: NeverScrollableScrollPhysics(), children: [
               Dashboard(),
-              accountTab(),
+              Projects(),
               accountTab(),
             ]),
 
