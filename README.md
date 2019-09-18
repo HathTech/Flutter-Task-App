@@ -24,7 +24,6 @@ If you found this project useful, then please consider giving it a :star: on Git
   <a href="https://www.youtube.com/watch?v=L62kvR9clHk"><img src="https://img.youtube.com/vi/L62kvR9clHk/0.jpg" alt="IMAGE ALT TEXT"></a>
 </div>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/L62kvR9clHk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Project Created & Maintained By
 
